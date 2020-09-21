@@ -1,0 +1,39 @@
+#imagen {
+    background-image: url(./assets/imagen3x.jpg);
+    /* Se ha colocado la imagen más grande.
+    Para resoluciones de pantalla con menor tamaño se colocarán las imagenes más pequeñas  */
+    background-repeat: no-repeat;
+    /* no-repeat es para que no se repita las imagenes */
+    background-color: aqua;
+    width: 55vw;
+    height: 70vw;
+    position: absolute;
+    /* la unidad "vw" significa viewport y hace referencia al tamaño de la pantalla de cada dispositivo */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+
+
+/* Ahora se procede a definir que imagen se debe imprimir por pantalla en función de la resolución
+de la pantalla de los dispositivos */
+
+
+/* La palabra Only screen hace referencia a la pantalla del dispositivo y max-width a la ventana */
+
+@media only screen and (max-width:950px) {
+    #imagen {
+        background-image: url(./assets/imagen2x.jpg);
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    #imagen {
+        background-image: url(./assets/imagen1x.jpg);
+        background-repeat: no-repeat;
+    }
+}

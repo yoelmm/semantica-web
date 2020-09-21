@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Por medio de la etiqueta Usemap se permite que una imagen pueda tener varios enlaces
+    distintos en funcion de la zona definida  -->
+
+    <h2>Usando mapas de imagenes por medio de USEMAP</h2>
+
+    <img src="./images.jpg" alt="Mario" usemap="#MarioB" width="225" height="225">
+    <!-- Nota: EL atributo "name" de map tiene que tener el mismo nombre que el atributo "usemap" de la tag "img" -->
+    <map name="MarioB">
+        <area shape="rect" coords="20,0,210,100" href="https://www.amazon.es/gorra-mario-bros/s?k=gorra+mario+bros" alt="gorra de Mario">
+    </map>
+
+</body>
+
+</html>

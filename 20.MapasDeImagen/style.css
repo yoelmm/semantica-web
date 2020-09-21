@@ -1,0 +1,7 @@
+/* La siguiente instruccion de CSS es para evitar que se observen las linas que delimitan
+el area de usemap cuando se haga click sobre la gorra de mario */
+
+img.map,
+map area {
+    outline: none;
+}

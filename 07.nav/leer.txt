@@ -1,0 +1,3 @@
+"nav" dota de contenido semantico a nuestra navegación. Antes en los menú de navegación se utilizaba
+los listados, pero luego HTML ha sacado la etiqueta nav para la bara de navegación y es recomendable
+su uso.

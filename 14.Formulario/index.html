@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NOTA -->
+    <!-- Los campos fieldset legend no son obligatorios ene el uso del form, pero si son semanticamente -->
+    <!-- correctos si se les da uso -->
+    <form action="url_de_ejemplo" method="POST">
+        <!-- el atributo "action" es para indicar la url donde se va a guardar la información
+        del lado del backend -->
+        <!-- El atributo "method" es para poder indicar que método se va a utilizar para el envío de la información.
+        El método POST es el más utilizado porque permite enviar todos los datos que se quieren, incluso imagenes
+    y archivos. En cambio el método GET solo permite enviar información en formato de texto dentro de la URL -->
+
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input name='nombre' type='text'>
+            <label for="apellidos">Apellido:</label>
+            <input name='apellidos' type='text' tabindex='2'>
+        </fieldset>
+
+        <fieldset>
+            <legend>edad</legend>
+            <input type='number' name='edad' value='20-39'> 20-39
+            <input type='checkbox' name='edad' value='40-59'> 40-59
+            <input type='checkbox' name='edad' value='60-79'> 60-79
+        </fieldset>
+
+        <fieldset>
+            <legend> Pais </legend>
+            <select name="" id="">
+                <optgroup label="Europa">
+                    <option value="Es">España</option>
+                    <option value="Fr">Francia</option>
+                    <option value="Po">Protugal</option>
+                    <option value="Al">Alemania</option>
+                </optgroup>
+                <optgroup label="America">
+                    <option value="Ar">Argentina</option>
+                    <option value="Br">Brasil</option>
+                    <option value="Ch">Chile</option>
+                    <option value="Ve">Venezuela</option>
+                </optgroup>
+
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Fecha</legend>
+            <input type="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Seleccionar archivos</legend>
+            <!-- El input tipo "file" permite seleccionar archivos desde el ordenador -->
+            <input type="file">
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="genero" value="mujer">
+        </fieldset>
+
+        <fieldset>
+            <legend>Observaciones:</legend>
+            <textarea name="comentarios" id="otros" cols="30" rows="4"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>lista desplegable con "datalist":</legend>
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+            <!-- el valor de "list" tiene que ser el mismo que el identificador de la etiqueta "datalist" -->
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+        </fieldset>
+
+        <input type="submit " value="Enviar "> <i class="fas fa-paper-plane "></i> <br>
+        <input type="reset " value="Borrar "> <i class="fas fa-trash-restore-alt "></i> <br>
+
+        <!-- También se puede crear el botón envío con la etiqueta button, la diferencia con la etiqueta
+        input, es que con button se puede colocar una imagen (fontawsome) dentro del botón -->
+        <button type="submit ">Enviar con etiqueta button <i class="fas fa-paper-plane "></i></button>
+    </form>
+</body>
+
+</html>

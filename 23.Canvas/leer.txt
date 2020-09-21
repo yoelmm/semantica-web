@@ -1,0 +1,1 @@
+Canvas es una etiqueta de HTML que permite poder dibujar gráficos usando scripts, por ejemplo de JS

@@ -1,0 +1,42 @@
+main {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+}
+
+body {
+    background-color: chartreuse;
+}
+
+
+/* Las imagenes mostradas por pantalla se sobresalen del 30% asignado al contenedor "main" por tanto
+se procede a realizar ajustes en las imagenes para que no sobresalga de las medidas definidas para 
+/* el contenedor  */
+
+
+/* PARA ELLO SE UTILIZA EL PARAMETRO "max-width" con este parámetro la imagen solo puede ocupar el 100%
+de su contenedor */
+
+#img1 {
+    max-width: 100%;
+}
+
+
+/* En el caso de la imagen 2 se requiere que dicha imagen este en linea con el texto. Por tanto,
+se define el ancho con la propiedad "width" y con "float" la posicion */
+
+#img2 {
+    width: 60%;
+    float: right;
+    /* Para definir el margen de la imagen se utiliza "margin" */
+    margin: 0 0 1.23em 2em;
+}
+
+
+/* Ahora se procede a ajustar el video de youtube al ancho del contenedor con el fin de que no sobredalga 
+del mismo */
+
+iframe {
+    max-width: 100%;
+    max-height: 100%;
+}

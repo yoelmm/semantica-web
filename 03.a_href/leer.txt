@@ -1,0 +1,18 @@
+La etiqueta "a" con el atributo"href" indica el enlace a donde vamos a ser redirigidos
+A esta etiqueta se le puede añadir como atributos :
+
+clase o un id
+
+title : que sera importante si hacemos una imagen accesible para especificar que hace ese enlace.
+
+target: Para indicar al navegador que comportamiento se quiere que tenga ese enlace. Por ejemplo:
+Una propiedad del atributo target es: target="_blank", con esta propiedad se indica que en enlace se abra
+en una ventana nueva
+
+Otra nota importante, es que el href nos puede redirigir a un parte en concreto de la misma pagina
+HTML. Por ejemplo clicar sobre el href para que nos redirija  al encabezado o al footer. Para ello:
+
+href="#header"
+
+La almohadilla antes de header hace referencia al atributo "id" que debe tener el header para ser redirigido
+

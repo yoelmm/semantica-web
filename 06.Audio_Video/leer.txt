@@ -1,0 +1,18 @@
+Las etiquetas audio y video tienen su propios atributos. Por ejemplo:
+
+controls: Al invocar este atributa las etiquetas renderizan en el navegador junto con el video
+y/o el audio los controles de reproduccion. Contorles de reproduccion, stop, volumen, etc
+
+src: para indicar la ruta donde se ubica el archivo
+
+type: para indicar que tipo de archivo es el que va a renderizar
+
+Se pueden especificar múltiples fuentes de archivos usando el elemento <source> con el fin de
+ proporcionar vídeo o audio codificados en formatos diferentes para diferentes navegadores. 
+ Por ejemplo:
+
+<video controls>
+  <source src="foo.ogg" type="video/ogg">
+  <source src="foo.mp4" type="video/mp4">
+  Tu navegador no implementa el elemento <code>video</code>.
+</video>

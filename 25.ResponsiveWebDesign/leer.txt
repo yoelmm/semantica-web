@@ -1,0 +1,9 @@
+Para hacer una web responsive se utilizar mediaqueries,
+Con media queries se puede manipular el tamaño de los elementos de HTML o estilo de CSS según 
+el tamaño de la pantalla de los dispositivos
+
+
+Cuando se tienen dispositivos con pantallas más pequeñas, se requiere imagenes más pequeñas y Cuando
+se tienen dispositivos con pantallas más grandes se requieren imagenes con mayor resolución
+
+El archivo index_img es un ejemplo de imagenes a distinta resolucion

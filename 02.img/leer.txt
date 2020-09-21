@@ -1,0 +1,13 @@
+La etiqueta "img" de HTML permite insertar imagenes, pero siempre es recomendable 
+colocarla esta etiqueta dentro de otra etiqueta llamada "figure". La etiqueta"figure"
+tiene una propiedad llamada "fipcaption" que permite escribir la descripción larga de la
+imagen. El "figcaption" se puede dotar de estilos y representarlo como un pie de foto
+
+img puede renderizar imagenes en formato png,jpg,svg y gif. Todo también depende del
+navegador donde se esté trabajando y su versión
+
+los atributos "alt" y "title" son dos atributos importantes que permiten hacer referencia
+a un texto descriptivo de la imagen. Esto permite que de cara al motor de búsqueda este sea
+capaz de conocer sobre que trata la imagen. Además, puede trabajar con los atributos "class"
+e "id"
+

@@ -1,0 +1,6 @@
+.style {
+    /* Por medio de la siguiente propiedad se cambia el color del icono */
+    color: red;
+    /* por medio del font-size se cambia el tamaño del icono */
+    font-size: 19px;
+}

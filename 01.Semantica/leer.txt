@@ -1,0 +1,7 @@
+El concept de semántica web hace referencia a dotar de mayor significado a una web dependiendo 
+de las etiquetas HTML que se usen
+
+El DOCTYPE es la primera linea que aparece en el documento de HTML con el fin de permitr al navegador
+conocer que lenguaje debe interpretar
+
+Se recomienda validar cada archivo HTML en el validor WEB de la W3C

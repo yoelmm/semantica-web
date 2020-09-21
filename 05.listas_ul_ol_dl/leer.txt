@@ -1,0 +1,1 @@
+NOta: Se puede definir und "dt" para varios "dd", pero al contrario no se puede
